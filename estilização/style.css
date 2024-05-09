@@ -1,4 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.headerindex{
+   background-color: darkgray;
+   display: flex;
+   justify-content: space-between;
+   height: 70px;
+   padding: 10px;
+   align-items: center;
+
+}
+.itensindex{
+   width: 250px;
+   height: 300px;
+   border: 1px solid black;
+   
+}
+.itensnavindex{
+    justify-content: space-between
+
 }
