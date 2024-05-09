@@ -19,6 +19,12 @@
    
 }
 .itensnavindex{
-    justify-content: space-between
-
+    display: flex;
+    gap: 0px 30px;
+    
+    
+}
+.itensnav{
+    border: 2px solid black;
+    background-color: white;
 }
