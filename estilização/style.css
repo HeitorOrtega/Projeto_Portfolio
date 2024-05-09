@@ -8,7 +8,7 @@
    display: flex;
    justify-content: space-between;
    height: 70px;
-   padding: 10px;
+   padding: 12px;
    align-items: center;
 
 }
@@ -20,11 +20,22 @@
 }
 .itensnavindex{
     display: flex;
-    gap: 0px 30px;
+    gap: 0px 34px;
+    padding-right: 10px;
+    font-size: 17px;
+    color: rgb(106, 207, 227);
     
-    
+
 }
 .itensnav{
     border: 2px solid black;
     background-color: white;
+    transition: 1s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.itensnav:hover{
+    background-color: rgb(195, 247, 255);
+    scale: 1.1;     
+    box-shadow: 5px 5px lightblue;
 }
