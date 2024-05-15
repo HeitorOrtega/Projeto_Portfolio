@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 .headerindex{
-   background-color: #96D2D9;
+    background: rgb(255,255,255);
+    background: linear-gradient(259deg, rgba(255,255,255,1) 0%, rgba(91,158,166,1) 42%, rgba(91,158,166,1) 47%);
    display: flex;
    justify-content: space-between;
    height: 70px;
