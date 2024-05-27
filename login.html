@@ -7,19 +7,21 @@
     <script src=""></script>
 </head>
 <body>
-    <form action="">
-        <fieldset>
-            <h2>Faça seu login</h2>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required placeholder="Insira seu email">
-            </div>
-            <div>
-                <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha" placeholder="Insira sua senha" required>
-            </div>
-        </fieldset>
-    </form>
+    <div id="container">
+        <form action="">
+            <fieldset>
+                <h2>Faça seu login</h2>
+                <div class="grupoForm">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required placeholder="Insira seu email">
+                </div>
+                <div class="grupoForm">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Insira sua senha" required>
+                </div>
+            </fieldset>
+        </form>
+    </div>
     <script src="./js/script.js"></script>
 </body>
 </html>
