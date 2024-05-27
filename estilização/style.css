@@ -47,5 +47,12 @@
 
 .container{
     display: flex;
-    blo
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.item{
+    height: 300px;
+    width: 200px;
+    justify-content: center;
 }
