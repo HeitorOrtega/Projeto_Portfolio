@@ -17,22 +17,45 @@ background: linear-gradient(176deg, rgba(150,210,217,1) 0%, rgba(150,210,217,1) 
 .item{
     border: solid 1px black;
     width: 400px;
-    height: 300px;
+    height: 370px;
     margin-bottom: 300px;
-   
+   border-radius: 10px;
 }
 .h2form{
     text-align: center;
     font-size: 40px;
     margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+
 }
 .grupo-form input{
     width: 292px;
     height: 30px;
     margin-top: 27px;
+    border-radius: 10px;
 }
 .grupo-form label{
     margin-left: 10px;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnLogin{
+    margin-top: 20px;
+    margin-left: 170px;
+    width: 70px;
+    height: 37px;
+    border-radius: 10px;
+    
+
+}
+
+#btnLogin:hover{
+    cursor: pointer;
+    transition: 2s;
+    background-color: rgb(255, 238, 113);
+}
+.grupo-form{
+    margin-top: 14px;
 }
