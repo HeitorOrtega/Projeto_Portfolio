@@ -8,9 +8,10 @@
 </head>
 <body>
     <div id="container">
-        <form action="">
+        <div class="login-container">
+            <h2>Faça seu login</h2>
+        <form id="LoginForm">
             <fieldset>
-                <h2>Faça seu login</h2>
                 <div class="grupoForm">
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" required placeholder="Insira seu email">
@@ -19,8 +20,14 @@
                     <label for="senha">Senha:</label>
                     <input type="password" name="senha" id="senha" placeholder="Insira sua senha" required>
                 </div>
+                <div>
+                    <button type="submit">Entrar</button>
+                </div>
             </fieldset>
         </form>
+        <p id="erroLogin" class="mensagem-erro"></p>
+        <p id="sucessoLogin" class="mensagem-sucesso"></p>
+        </div>
     </div>
     <script src="../js/script.js"></script>
 </body>
