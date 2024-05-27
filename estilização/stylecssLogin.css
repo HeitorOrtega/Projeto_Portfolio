@@ -1,0 +1,38 @@
+
+.container{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+.item{
+    border: solid 1px black;
+    width: 400px;
+    height: 300px;
+   
+}
+.h2form{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.grupo-form input{
+    width: 292px;
+    height: 30px;
+    margin-top: 27px;
+}
+.grupo-form label{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#bntLogin{
+
+}
+.background{
+    
+}
+body{
+    background: rgb(150,210,217);
+    background: linear-gradient(259deg, rgba(150,210,217,1) 20%, rgba(252,252,252,1) 47%, rgba(150,210,217,1) 71%);
+}
