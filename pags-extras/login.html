@@ -8,23 +8,24 @@
 </head>
 <body>
   <div class="container">
-    <div class="login-container">
-      <h2>Faça o Login</h2>
-      <form id="loginForm">
-        <div class="grupo-form">
-          <label for="email">Email:</label>
-          <input type="email" id="email" placeholder="Email" required>
+    <div class="item">
+        <h2 class="h2form">Faça o Login</h2>
+        <div class="">
+            <form id="loginForm">
+                <div class="grupo-form">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="grupo-form">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" placeholder="Senha" required>
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
+            <p id="erroLogin" class="mensagem-erro"></p>
+            <p id="sucessoLogin" class="mensagem-sucesso"></p>
         </div>
-        <div class="grupo-form">
-          <label for="password">Senha:</label>
-          <input type="password" id="password" placeholder="Senha" required>
-        </div>
-        <button type="submit">Entrar</button>
-      </form>
-      <p id="erroLogin" class="mensagem-erro"></p>
-      <p id="sucessoLogin" class="mensagem-sucesso"></p>
     </div>
-  </div>
   <script src="../js/script.js"></script>
 </body>
 </html>
