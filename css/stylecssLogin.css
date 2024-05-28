@@ -4,51 +4,62 @@
 }
 
 body{
-    background: rgb(150,210,217);
-background: linear-gradient(176deg, rgba(150,210,217,1) 0%, rgba(150,210,217,1) 0%, rgba(150,210,217,1) 19%, rgba(150,210,217,1) 35%, rgba(150,210,217,1) 43%, rgba(172,219,225,1) 50%, rgba(255,255,255,1) 77%);
+    background: rgb(245,245,245);
+background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 95%);
 }
 .container{
     display: flex;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 155px;
 }
 .item{
     border: solid 1px black;
     width: 400px;
     height: 370px;
-    margin-bottom: 300px;
-   border-radius: 10px;
-   background-color: rgb(239, 239, 229);
+    margin-bottom: 270px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 39, 234);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
    
 }
 .h2form{
     text-align: center;
-    font-size: 40px;
+    font-size: 42px;
     margin-bottom: 30px;
     font-family: Arial, sans-serif;
     margin-top: 50px;
+    color: rgb(0, 39, 234);
+
 
 }
 .grupo-form input{
-    width: 292px;
+    width: 260px;
     height: 30px;
     margin-top: 27px;
-    border-radius: 10px;
+    border-radius: 4px;
+    border-color: rgb(123, 123, 215);
 }
 .grupo-form label{
     margin-left: 10px;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 39, 234);
+    font-style;
+    
 }
 
 #btnLogin{
-    margin-top: 20px;
-    margin-left: 170px;
-    width: 70px;
+    margin-top: 60px;
+    margin-left: 163px;
+    width: 80px;
     height: 37px;
     border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 39, 234); 
     
 
 }
@@ -56,8 +67,17 @@ background: linear-gradient(176deg, rgba(150,210,217,1) 0%, rgba(150,210,217,1) 
 #btnLogin:hover{
     cursor: pointer;
     transition: 2s;
-    background-color: rgb(255, 238, 113);
+    background-color:   rgb(176, 186, 245);
 }
 .grupo-form{
     margin-top: 12px;
+}
+#email{
+    margin-right: 40px;
+}
+
+.grupo-form .inputLabelEmail{
+    margin-left: 0px;
+    padding-left: 1%;
+
 }
