@@ -82,3 +82,13 @@ background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 
     padding-left: 1%;
 
 }
+.mensagem-erro{
+    margin-top: 20px;
+    color: red;
+    font-size: 25px;
+}
+.mensagem-sucesso{
+    margin-top: 20px;
+    color: green;
+    font-size: 25px;
+}
