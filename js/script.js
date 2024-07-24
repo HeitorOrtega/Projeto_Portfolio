@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 successMessage.classList.add("login-success");
             }
             setTimeout(function () {
-                window.location.href = "../index.html"; // Redireciona para index.html fora da pasta atual
+                window.location.href = "../index.html"; 
             }, 3000);
         } else {
             const errorElement = document.getElementById("erroLogin");
