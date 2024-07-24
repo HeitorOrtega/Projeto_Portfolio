@@ -5,8 +5,8 @@
 }
 
 .headerindex {
-    background: rgb(255,255,255);
-    background: linear-gradient(259deg, rgba(255,255,255,1) 0%, rgba(91,158,166,1) 42%, rgba(91,158,166,1) 47%);
+    background: rgb(194,224,250);
+    background: linear-gradient(74deg, rgba(194,224,250,1) 12%, rgba(179,213,242,1) 45%, rgba(5,108,242,1) 73%);
     display: flex;
     justify-content: space-between;
     height: 110px;
