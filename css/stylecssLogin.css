@@ -99,7 +99,7 @@ body{
 .mensagem-sucesso{
     position: relative;
     top: 20px;
-    color: green;
+    color: rgb(0, 39, 234);
     font-size: 25px;
 }
 #logo{
