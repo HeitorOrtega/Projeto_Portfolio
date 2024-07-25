@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const users = [
-        { email: "marcos@gmail.com", password: "12345", name: "Marcos" },
-        { email: "joao@gmail.com", password: "5678", name: "João" }
+        
     ];
 
     function login(event) {
@@ -24,26 +23,16 @@ document.addEventListener("DOMContentLoaded", function() {
             }, 5000);
             return;
         }
-
-        const user = users.find(u => u.email === email && u.password === password);
-
-        if (user) {
-            sessionStorage.setItem("user", JSON.stringify(user));
-            const successMessage = document.getElementById("sucessoLogin");
-            if (successMessage) {
-                successMessage.textContent = "Login realizado com sucesso!";
-                successMessage.classList.add("login-success");
-            }
-            setTimeout(function () {
-                window.location.href = "../index.html"; 
-            }, 3000);
-        } else {
-            const errorElement = document.getElementById("erroLogin");
-            errorElement.textContent = "Email ou senha inválidos";
-            setTimeout(() => {
-                errorElement.textContent = "";
-            }, 5000);
+        
+        sessionStorage.setItem("user", JSON.stringify({ email, name: "Usuário" }));
+        const successMessage = document.getElementById("sucessoLogin");
+        if (successMessage) {
+            successMessage.textContent = "Login realizado com sucesso!";
+            successMessage.classList.add("login-success");
         }
+        setTimeout(function () {
+            window.location.href = "../index.html"; 
+        }, 3000);
     }
 
     function logout() {
