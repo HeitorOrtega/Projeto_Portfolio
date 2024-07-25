@@ -7,8 +7,7 @@
 .header {
     background: rgb(194,224,250);
     display: flex;
-    height: 110px;
-    padding: 12px; 
+    justify-content: center;
 }
 
 body{
@@ -21,19 +20,20 @@ body{
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    margin-top: 155px;
+    margin-top: 70px;
     background-color: #c2e0fa;
+    
 }
 
 .item{
     border: solid 1px black;
     width: 400px;
     height: 370px;
-    margin-bottom: 270px;
     border-radius: 3px;
     background-color: rgb(255, 255, 255);
     border-color: rgb(0, 39, 234);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
     
 }
 .h2form{
@@ -101,4 +101,11 @@ body{
     top: 20px;
     color: green;
     font-size: 25px;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+    
+    
+    
 }

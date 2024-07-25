@@ -16,6 +16,8 @@ body{
     height: 110px;
     padding: 12px; 
     align-items: center;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px #515151;
 
 }
 
