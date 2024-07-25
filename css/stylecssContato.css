@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #c2e0fa;
+}
+
 .header {
     background: rgb(194,224,250);
     background: linear-gradient(74deg, rgba(194,224,250,1) 12%, rgba(179,213,242,1) 45%, rgba(5,108,242,1) 73%);
