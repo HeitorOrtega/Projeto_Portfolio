@@ -2,10 +2,18 @@
     margin: 0;
     padding: 0;
 }
+.header {
+    background: rgb(194,224,250);
+    background: linear-gradient(74deg, rgba(194,224,250,1) 12%, rgba(179,213,242,1) 45%, rgba(5,108,242,1) 73%);
+    display: flex;
+    height: 110px;
+    padding: 12px; 
+}
+
 
 body{
     background: rgb(245,245,245);
-background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 95%);
+    background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 95%);
 }
 .container{
     display: flex;
