@@ -6,14 +6,13 @@
 
 .header {
     background: rgb(194,224,250);
-    background: linear-gradient(74deg, rgba(194,224,250,1) 12%, rgba(179,213,242,1) 45%, rgba(5,108,242,1) 73%);
     display: flex;
     height: 110px;
     padding: 12px; 
 }
 
 body{
-    background-color: #B3D5F2;
+    background-color: #c2e0fa;
     
 }
 
@@ -23,7 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 155px;
-    background-color: #B3D5F2;
+    background-color: #c2e0fa;
 }
 
 .item{
